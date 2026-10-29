@@ -106,7 +106,7 @@
   <main class="sheet">
     <div class="top">
       <h1>Mojidara Vivek<span class="mark" aria-hidden="true"></span></h1>
-      <p class="headline">Full-Stack Developer | PHP, Laravel, CodeIgniter, Node.js, React, MySQL</p>
+      <p class="headline">Full-Stack Developer | PHP, Laravel, CodeIgniter, Go, Node.js, React, MySQL</p>
       <p class="contact">
         Ahmedabad, Gujarat, India<span class="sep">|</span><a href="tel:+916354659893">+91 63546 59893</a><span class="sep">|</span><a href="mailto:mojidaravivek23@gmail.com">mojidaravivek23@gmail.com</a><span class="sep">|</span><a href="https://www.linkedin.com/in/mojidara-vivek-48bb31249/">linkedin.com/in/mojidara-vivek-48bb31249</a><span class="portfolio" hidden><span class="sep">|</span><a data-portfolio></a></span>
       </p>
@@ -114,19 +114,19 @@
 
     <section>
       <h2>Professional Summary</h2>
-      <p>Full-Stack Developer with 3.5+ years of experience designing, building and maintaining production web, desktop and SaaS applications with PHP (Laravel, CodeIgniter, Perfex CRM), Node.js/Express, React and MySQL. Built payment-to-license automation, REST APIs consumed by mobile apps, offline-first Electron POS software and multi-tenant SaaS platforms, with integrations including Stripe, PayPal, BlueSnap, QuickBooks Online and the WhatsApp Cloud API. Owns features end to end: database design, APIs, UI, testing and CI/CD deployment.</p>
+      <p>Full-Stack Developer with 3.5+ years of experience designing, building and maintaining production web, desktop and SaaS applications with PHP (Laravel, CodeIgniter, Perfex CRM), Go (Gin), Node.js/Express, React, MySQL and PostgreSQL. Built payment-to-license automation, REST APIs consumed by mobile apps, a multi-carrier shipping API in Go, offline-first Electron POS software and multi-tenant SaaS platforms, with integrations including Stripe, PayPal, BlueSnap, QuickBooks Online, UPS, FedEx and the WhatsApp Cloud API. Owns features end to end: database design, APIs, UI, testing and CI/CD deployment.</p>
     </section>
 
     <section>
       <h2>Technical Skills</h2>
       <ul class="skills">
-        <li><strong>Languages:</strong> PHP, JavaScript (ES6+), TypeScript, Python, SQL, HTML5, CSS3</li>
-        <li><strong>Backend:</strong> Laravel, CodeIgniter, Perfex CRM, Node.js, Express.js, FastAPI, RESTful APIs, JWT, OAuth 2.0, Webhooks, Cron Jobs</li>
+        <li><strong>Languages:</strong> PHP, Go (Golang), JavaScript (ES6+), TypeScript, Python, SQL, HTML5, CSS3</li>
+        <li><strong>Backend:</strong> Laravel, CodeIgniter, Perfex CRM, Gin, Fiber, Node.js, Express.js, FastAPI, RESTful APIs, JWT, OAuth 2.0/2.1, Webhooks, Cron Jobs</li>
         <li><strong>Frontend:</strong> React.js, Vite, Tailwind CSS, Bootstrap, jQuery, Alpine.js</li>
         <li><strong>Desktop &amp; Mobile:</strong> Electron, Flutter, Capacitor</li>
-        <li><strong>Databases &amp; Data:</strong> MySQL, SQLite, Knex.js, SQLAlchemy, pandas, scikit-learn, XGBoost</li>
-        <li><strong>Integrations:</strong> Stripe, PayPal, BlueSnap IPN, QuickBooks Online API, WhatsApp Cloud API, Firebase Cloud Messaging, Google Drive API, Claude API, Telegram Bot API, OpenStreetMap/Leaflet</li>
-        <li><strong>DevOps &amp; Tools:</strong> Git, GitHub Actions, Bitbucket Pipelines, GitLab CI, Linux hosting, Puppeteer, electron-builder, pytest</li>
+        <li><strong>Databases &amp; Data:</strong> MySQL, PostgreSQL, SQLite, Redis, NATS JetStream, SQLC, Knex.js, SQLAlchemy, pandas, scikit-learn, XGBoost</li>
+        <li><strong>Integrations:</strong> Stripe, PayPal, BlueSnap IPN, QuickBooks Online API, UPS API, FedEx API, WhatsApp Cloud API, Firebase Cloud Messaging, Google Drive API, Claude API, Telegram Bot API, Twilio, OpenStreetMap/Leaflet</li>
+        <li><strong>DevOps &amp; Tools:</strong> Git, GitHub Actions, Bitbucket Pipelines, GitLab CI, Docker, Swagger/OpenAPI, Linux hosting, Puppeteer, electron-builder, pytest</li>
         <li><strong>Concepts:</strong> Multi-Tenant SaaS, Role-Based Access Control (RBAC), Payment Gateway Integration, Software Licensing, Offline-First Apps, MVC, Agile</li>
       </ul>
     </section>
@@ -142,11 +142,12 @@
         <li><strong>Payment-to-license automation:</strong> Led development of a BlueSnap IPN webhook service (CodeIgniter 3, REST) that validates payment callbacks, matches customers through multi-step rules and automatically issues or renews FlexLM licenses (perpetual, subscription, network, trial) with templated emails.</li>
         <li><strong>License portal:</strong> Contributed 300+ commits to the companion customer and admin portal (PHP, MySQL): QuickBooks Online OAuth estimates and invoices with volume discounts, renewal-reminder cron jobs, and a beta program with SSO, OTP login and S3-compatible downloads; deployed via Bitbucket Pipelines.</li>
         <li><strong>Mobile app API:</strong> Created and maintain the REST API module on Perfex CRM 3.2 for the Sync-In co-parenting app: 90+ endpoints for custody schedules, swap approvals, events, chat, shared expenses and subscriptions, secured with JWT, SMS/email OTP and Firebase Cloud Messaging push notifications.</li>
+        <li><strong>Shipping platform (Go):</strong> Core developer (25 of 45 commits) of a Go/Gin shipping API on PostgreSQL, Redis and NATS JetStream: integrated the UPS (OAuth) and FedEx REST APIs for rates, labels and pickups; built the shipment flow, prepaid wallet, commission-plan and admin APIs, SMS-based 2FA and invoice PDFs, documented with Swagger. The codebase was carried into the ShipInAFlash production platform.</li>
         <li><strong>Restaurant POS:</strong> Lead developer of an offline-first Electron + React 19 point-of-sale system on SQLite (billing, KOT, cash drawer, recipe-based inventory, tax and P&amp;L reports, ESC/POS thermal printing over USB/Bluetooth/LAN) and its multi-tenant web SaaS edition; added device-bound license activation and V8 bytecode code protection.</li>
         <li><strong>Real-estate platform:</strong> Contributed 400+ commits to OfficeTours, a multi-app CodeIgniter commercial real-estate marketplace: OpenStreetMap/Leaflet maps, Stripe vacancy subscriptions, tenant dashboard, agent lead flow, email templates and XML sitemaps, plus its Wicklow West landlord site.</li>
         <li><strong>SaaS products:</strong> Built a multi-tenant school ERP (React, Node.js/Express, MySQL database-per-school) covering fees, admissions, payroll, exams, transport and NFC child check-in; co-developed a TypeScript WhatsApp GST-invoicing SaaS (Meta WhatsApp Cloud API, SSE delivery tracking, AES-256-GCM encrypted credentials).</li>
         <li><strong>Plugin licensing:</strong> Sole developer of a Laravel 12 licensing server for a commercial Revit/BIM plugin: RSA-signed activation tokens, machine binding, rate-limited REST API, approval workflow and GitHub Actions CI/CD.</li>
-        <li><strong>Also delivered:</strong> GetGeomains registrar checkout (PayPal, Stripe, currency conversion), a checklist and checklist-category module with role-based permissions for a CodeIgniter CRM, and features for the NotifyPro document-request platform.</li>
+        <li><strong>Also delivered:</strong> GetGeomains registrar checkout (PayPal, Stripe, currency conversion), a checklist and checklist-category module with role-based permissions for a CodeIgniter CRM, and features for the NotifyPro document-request platform and the Full Circle coaching API (Go, Fiber, SQLC).</li>
       </ul>
     </section>
 
@@ -173,6 +174,10 @@
       <div class="item">
         <div class="item-head"><h3>Daily Reminder - Desktop Assistant</h3><span class="stack">Electron, React, MySQL</span></div>
         <p>Medicine-stock tracking, recurring reminders, budget charts and a daily email digest; runs in the system tray with encrypted credentials and about 50 unit tests.</p>
+      </div>
+      <div class="item">
+        <div class="item-head"><h3>Ethereum Inclusion-Proof CLI</h3><span class="stack">Go, go-ethereum</span></div>
+        <p>Encodes a custom payload (raw or RLP) into a signed EIP-1559 transaction, waits for mining, then rebuilds the block's transaction trie and verifies a Merkle-Patricia inclusion proof against the transactionsRoot.</p>
       </div>
     </section>
 
