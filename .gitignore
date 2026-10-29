@@ -1,0 +1,12 @@
+# Claude Code files (local only, not pushed)
+.claude/
+CLAUDE.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build helpers
+node_modules/
